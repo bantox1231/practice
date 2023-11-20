@@ -1,0 +1,10 @@
+{% include 'header_and_footer/header.html' %}
+
+<h1>Детальная информация о машине</h1>
+<h2>{{car_id.title}}</h2>
+<img src="{{car_id.image.url}}" alt="">
+<time>{{car_id.year}}</time>
+<p>{{car_id.mark}}</p>
+<p>{{car_id.description}}</p>
+<time>{{car_id.created_at}}</time>
+{% include 'header_and_footer/footer.html' %}
